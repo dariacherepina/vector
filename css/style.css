@@ -1,0 +1,105 @@
+body{
+    background-color: #e2e7ec;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 90px 0;
+}
+
+.card-wrap{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-bottom: 79px;
+}
+.card--big {
+    width: 66%;
+    background: url('../img/big.png') center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+.card--big,
+.card--big + .card {
+    margin-bottom: 20px;
+}
+
+.card-bottom {
+    margin-top: auto;
+}
+.card-bottom--big{
+    padding: 0 0 40px 43px;
+}
+
+.card .card-bottom{
+    background-color: #fff;
+    padding: 28px 26px 25px;
+    min-height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-img{
+    width: 100%;
+    height: auto;
+    
+}
+.card-date{
+    font-size: 0.8rem;
+    letter-spacing: 0.33px;
+    color: #818181;
+    font-family: "Hans Kendrick", sans-serif;
+    font-weight: 500;
+    display:block;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+}
+.card--big .card-date{
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 23px;
+}
+.card-title{
+    font-size: 1.37rem;
+    letter-spacing: 0.55px;
+    line-height: 30px;
+    color: #1d1d1d;
+    font-family: "Hans Kendrick", sans-serif;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+ .card--big .card-title{
+    font-size: 1.875rem;
+    letter-spacing: 1px;
+    line-height: 36px;
+    color: #fff;
+    margin-bottom: 0;
+ }
+.card-icon{
+    margin-top: auto;
+}
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading_img{
+    margin-right: 13px;
+}
+.loading_title{
+    font-size: 0.8rem;
+    letter-spacing: 0.33px;
+    color: #99a5b0;
+    font-family: "Hans Kendrick", sans-serif;
+    text-transform: uppercase;
+}
